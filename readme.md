@@ -57,14 +57,12 @@ Fitur Utama:
 
 - Git – Version control.
 
-# 🌟 Fitur Unggulan FoodCare
+# Fitur Unggulan FoodCare
 
 FoodCare merupakan platform berbasis web yang menghadirkan solusi digital untuk mengatasi **kelaparan** dan **pemborosan makanan** di Indonesia.  
 Melalui sistem yang efisien dan transparan, FoodCare menghubungkan masyarakat, pelaku bisnis, serta lembaga sosial dalam satu ekosistem yang saling membantu untuk mencapai **Zero Hunger**.
 
 ---
-
-## Fitur Unggulan
 
 ### 1. Donasi Makanan
 
@@ -195,6 +193,14 @@ Masuk ke direktori proyek:
 cd FoodCare
 
 Buka file index.html di browser Anda.
+
+## Website :
+
+https://foodcare-platform.vercel.app/
+
+## Tampilan Proyek :
+
+![Tampilan Website](./assets/image/Website-Logo.svg)
 
 ## Kontributor
 
