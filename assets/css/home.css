@@ -1,0 +1,72 @@
+@media (max-width: 768px) {
+    .slider img {
+        flex: 0 0 100%;
+    }
+}
+
+@media (min-width: 769px) {
+    .slider img {
+        flex: 0 0 calc(100% / 3);
+    }
+}
+
+.swiper-pagination {
+    position: relative !important;
+    top: -80px !important;
+}
+
+/* Ubah warna dot swiper */
+.swiper-pagination-bullet {
+    background-color: #568575 !important;
+    /* abu-abu (Tailwind: gray-300) */
+    opacity: 1 !important;
+}
+
+/* Dot aktif (yang sedang tampil) */
+.swiper-pagination-bullet-active {
+    background-color: #ffffff !important;
+    /* putih */
+}
+
+/* Opsional: biar dot sedikit lebih besar */
+.swiper-pagination-bullet {
+    width: 10px !important;
+    height: 10px !important;
+}
+
+@media screen and (min-width: 810px) and (max-width: 1000px) {
+
+    #donate-section,
+    .footer,
+    .cta-section {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
+
+    #blog-section {
+        padding-left: 3rem !important;
+        padding-right: 3rem !important;
+    }
+
+    #blog-section #sc {
+        flex-wrap: nowrap !important;
+        justify-content: flex-start !important;
+        overflow-x: auto !important;
+        overflow-y: hidden !important;
+    }
+
+    #blog-section .snap-start {
+        flex: 0 0 auto !important;
+    }
+}
+
+#donate-section .grid {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media (min-width: 1024px) {
+    #donate-section .grid {
+        grid-template-columns: repeat(3, 348px);
+        justify-content: space-between;
+    }
+}
